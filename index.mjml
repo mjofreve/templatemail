@@ -7,43 +7,21 @@
       <mj-class name="preheader" color="#000000" font-size="11px"></mj-class>
       <mj-all font-family="Lato, sans-serif" font-size="12px" />
     </mj-attributes>
-    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato" />
-		<mj-style>
-			@font-face {
-			  font-family: 'Lato';
-			  font-style: normal;
-			  font-weight: 400;
-			  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
-			  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-			}
-			@font-face {
-			  font-family: 'Lato';
-			  font-style: normal;
-			  font-weight: 400;
-			  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-			  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-			}
-			@font-face {
-				font-family: 'Lato-Bold';
-			  font-style: normal;
-			  font-weight: 800;
-				src: asset-url('Lato-Bold.woff2') format('woff2');
-			}
-		</mj-style>    
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato" />   
     <mj-style inline="inline">a { text-decoration: none!important; color: inherit!important; }strong{font-family: "Lato-Bold", sans-serif;font-weight: bold;}</mj-style>
   </mj-head>
   <mj-body background-color="#bbb">
     <mj-section>
       <mj-column width="100%">
-        <mj-image src="logo-falabella-header.png" alt="header image" padding="0px"></mj-image>
+        <mj-image src="img/logo-falabella-header.png" alt="header image" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section padding-bottom="20px" padding-top="10px" background-url="emkt-ganadores-giftcard-fondo.jpg">
+    <mj-section padding-bottom="20px" padding-top="10px" background-url="img/emkt-ganadores-giftcard-fondo.jpg">
       <mj-column>
         <mj-text align="center" padding="10px 25px" font-size="59px" color="#000000"><strong>¡Felicidades!</strong></mj-text>
         <mj-text align="center" padding="10px 32px" font-size="22px" line-height="24px">Por haber participado en la “Encuesta nueva función de pagos en tienda” ganaste una Gift Card de $20.000 para ser utilizada en Falabella.com y tiendas Falabella</mj-text>
         <mj-spacer height="16px" />
-        <mj-image width="300px" border-radius="20px" src="imagen-gifcard.jpg" border="6px solid #ffffff"/>
+        <mj-image width="300px" border-radius="20px" src="img/imagen-gifcard.jpg" border="6px solid #ffffff"/>
 
         <mj-text align="center" color="#000000" font-size="19px"   padding="16px 48px" line-height="24px"><strong>Preséntala directamente desde tu celular</strong> en la caja de la tienda o <strong>ingresa este número de Gift Card y código de seguridad</strong> en Falabella.com
         </mj-text>
